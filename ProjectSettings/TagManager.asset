@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Balik
+  - EnemyPatrol
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Obstacle
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - test layer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1886347785
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 1499898503
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 19291495
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 660893589
+    locked: 0
