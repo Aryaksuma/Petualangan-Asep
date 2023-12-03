@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      awan3_0: -2606737067548471124
+      awan3_1: 4114006453084450535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Asep breathing pentungan_00054_0: 8390005457476445898
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

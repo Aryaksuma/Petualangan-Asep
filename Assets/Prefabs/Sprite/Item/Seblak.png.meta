@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Seblak_0: 7264473310971067325
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

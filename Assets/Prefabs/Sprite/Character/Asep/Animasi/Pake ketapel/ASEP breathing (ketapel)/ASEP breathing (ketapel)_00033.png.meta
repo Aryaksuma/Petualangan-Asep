@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ASEP breathing (ketapel)_00033_0: 2875568656856693878
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

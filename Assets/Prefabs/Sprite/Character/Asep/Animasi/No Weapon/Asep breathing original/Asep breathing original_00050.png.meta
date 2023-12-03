@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Asep breathing original_00050_0: -8573654915131868441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

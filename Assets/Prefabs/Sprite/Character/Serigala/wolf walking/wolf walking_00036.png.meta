@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wolf walking_00036_0: 6693200151921913561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

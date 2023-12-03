@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fox jump_00001_0: -1198545497278420701
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

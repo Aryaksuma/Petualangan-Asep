@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Asep walking (ketapel)_00000_0: -4203336659175732049
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

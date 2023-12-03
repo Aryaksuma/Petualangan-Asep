@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pohon1_0: -4874593316955817388
+      Pohon1_1: 6649557028255877912
+      Pohon1_2: -2901113032777682101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

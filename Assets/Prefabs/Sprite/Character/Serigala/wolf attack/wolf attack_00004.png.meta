@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wolf attack_00004_0: 5050379894182946208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

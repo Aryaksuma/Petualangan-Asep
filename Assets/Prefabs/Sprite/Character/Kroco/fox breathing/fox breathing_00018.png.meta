@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fox breathing_00018_0: -5622488718047645026
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asep jump (ketapel)_00028_0: -7557744747738000757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asep revenger_00018_0: -6120005782735323012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

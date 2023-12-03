@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asep jump_00007_0: -6182028686172228368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

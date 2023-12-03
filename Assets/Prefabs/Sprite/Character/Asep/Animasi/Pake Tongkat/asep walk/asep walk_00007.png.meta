@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asep walk_00007_0: -8475127899758756649
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

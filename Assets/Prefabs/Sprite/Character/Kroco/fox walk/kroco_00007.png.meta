@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kroco_00007_0: 6881741764383022888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cilok_0: 7128158605907646270
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

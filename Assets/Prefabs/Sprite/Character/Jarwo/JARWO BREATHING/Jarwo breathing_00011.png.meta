@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jarwo breathing_00011_0: -2775674531726142549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

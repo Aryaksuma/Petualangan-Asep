@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jarwo attack_00022_0: 6408195927926001545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

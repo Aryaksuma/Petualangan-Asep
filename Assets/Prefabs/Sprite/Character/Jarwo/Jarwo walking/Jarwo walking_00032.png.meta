@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jarwo walking_00032_0: -7549520433022107211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
