@@ -9,6 +9,7 @@ TagManager:
   - Balik
   - EnemyPatrol
   - Fox
+  - Wolf
   layers:
   - Default
   - TransparentFX

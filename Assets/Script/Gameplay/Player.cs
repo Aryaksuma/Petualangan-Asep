@@ -10,25 +10,14 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     [SerializeField] private bool grounded;
 
-    public int maxHealth = 100;
-    public int currentHealth;
-
-    public HealthBar healthBar;
-   /* public float PlayerHp;
-    public PlayerHp playerHp;*/
-
     void Start()
     {
-        currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            TakeDamage(10);
-        }
+        
 
         float horizontalInput = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
@@ -64,25 +53,11 @@ public class PlayerMovement : MonoBehaviour
         grounded = true;
     }
 
-    void TakeDamage(int damage)
-    {
-        currentHealth -= damage;
-
-        healthBar.SetHealth(currentHealth);
-    }
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
     }
 
-    /*private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Fox")
-        {
-            PlayerHp -= 10;
-            playerHp.PlayerBar(PlayerHp);
-        }
-    }*/
+    
 }
