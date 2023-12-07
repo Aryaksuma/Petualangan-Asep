@@ -35,9 +35,10 @@ public class EnemyBulletScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("Hit");
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<PlayerHealth>().PlayerHp -= 20;
+            other.gameObject.GetComponent<PlayerHealth>().TakeDamage(20);
             Destroy(gameObject);
         }
     }

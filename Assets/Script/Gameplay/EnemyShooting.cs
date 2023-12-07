@@ -7,6 +7,7 @@ public class EnemyShooting : MonoBehaviour
 
     public GameObject bullet;
     public Transform bulletPos;
+    public Animator anim;
 
     private float timer;
     private GameObject player;
@@ -37,6 +38,7 @@ public class EnemyShooting : MonoBehaviour
 
     void shoot()
     {
+        anim.SetTrigger("Shoot");
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
 }
