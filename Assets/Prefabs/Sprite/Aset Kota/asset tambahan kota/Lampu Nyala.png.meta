@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lampu Nyala_0: 6617814745234562549
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
