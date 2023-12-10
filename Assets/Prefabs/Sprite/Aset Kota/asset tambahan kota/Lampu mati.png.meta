@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lampu mati_0: -7335880809829117044
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

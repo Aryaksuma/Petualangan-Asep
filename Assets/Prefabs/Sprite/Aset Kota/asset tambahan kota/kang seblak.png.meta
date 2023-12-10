@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kang seblak_0: 3162119933763737211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

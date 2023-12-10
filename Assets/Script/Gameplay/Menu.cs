@@ -7,6 +7,8 @@ public class Menu : MonoBehaviour
 {
     public GameObject menupanel;
     public GameObject ButtonSetting;
+    public GameObject Credit1;
+    public GameObject ControlSetting;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,5 +48,17 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("EXIT..");
+    }
+
+    public void CreditButton(string scenename)
+    {
+        ButtonSetting.SetActive(false);
+        Credit1.SetActive(true);
+    }
+
+    public void ControlButton(string scenename)
+    {
+        ButtonSetting.SetActive(false);
+        ControlSetting.SetActive(true);
     }
 }

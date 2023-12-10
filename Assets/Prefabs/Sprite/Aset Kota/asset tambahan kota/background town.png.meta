@@ -200,7 +200,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      background town_0: 6012736383376007023
+      background town_1: 7795313297025894431
+      background town_2: 846834038055076341
+      background town_3: -7015066833135056236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
