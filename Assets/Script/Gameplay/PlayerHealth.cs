@@ -42,5 +42,10 @@ public class PlayerHealth : MonoBehaviour
             PlayerHp -= 20;
             playerHp.PlayerBar(PlayerHp);
         }
+        else if (other.gameObject.tag == "Boss")
+        {
+            PlayerHp -= 30;
+            playerHp.PlayerBar(PlayerHp);
+        }
     }
 }
