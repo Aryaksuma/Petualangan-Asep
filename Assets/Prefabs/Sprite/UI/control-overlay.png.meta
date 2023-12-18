@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      control-overlay_0: 6313737590596056185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
