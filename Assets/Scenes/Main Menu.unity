@@ -1849,7 +1849,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 25
   m_Viewport: {fileID: 649493726}
   m_HorizontalScrollbar: {fileID: 0}
   m_VerticalScrollbar: {fileID: 0}
@@ -2426,7 +2426,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -810828629930792435, guid: cc643d05cd8e4034695bdfc59c0325b2, type: 3}
+  m_Sprite: {fileID: 5529022320273088708, guid: eb4a880b84bad4948baf3a424cf1d046, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3941,8 +3941,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 44.6085, y: 169.59}
-  m_SizeDelta: {x: 1400.3721, y: 339.18}
+  m_AnchoredPosition: {x: 30.847, y: -613.4034}
+  m_SizeDelta: {x: 1603.2, y: 6778.6787}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1421373766
 GameObject:
@@ -4551,10 +4551,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1303408515}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.012139631, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -9.161499, y: -1139.9998}
+  m_SizeDelta: {x: 18.323, y: 129.6895}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616294043
 MonoBehaviour:
@@ -4576,13 +4576,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Programer
-
-    Game Artist
-
-    Game Desigt
-
-    UI/UX'
+  m_text: "Game Petualangan Asep\n\nCapbearStudio Team\n\r\nArya Kusuma - Game Programmer\n\r\nArif
+    Ryanto - Game Programmer\n\nSalsabila Sobah - Game Design & Project Manager\n\r\nAbdulah
+    Hilman - Game Artist\n\r\nMaya Catherine Yolanda - Game Artist\n\n\n\n\nCredit
+    Sound\n\n\rSebastian Pangal - Preserve in Community Properties - Artist.io\n\r\naction
+    protection - 118722 - Pixabay\n\n\r8-bit-background-music-for-arcade-game-come-on-mario-164702n
+    - Pixabay\n\nsound-effect-twinklesparkle-115095v - Pixabay\n\r\nchopping-wood-96709
+    - Pixabay\n\r\nbisbol attack - original asset\n\r\nketapel attack - original
+    asset\n\r\nkena damage - original asset\n\r\ncartoon-jump-6462 - Pixabay\n\r\nsound_jump-90516
+    - Pixabay\n\r\n26-angry-fox-46664 - Pixabay\n\r\ntiger-87706 - Pixabay\n\r\ntigre-46543
+    - Pixabay\n\r\nsnarls-and-growls-172823 - Pixabay\r\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4604,7 +4607,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 97690656
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
