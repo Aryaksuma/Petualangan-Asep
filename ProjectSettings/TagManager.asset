@@ -10,6 +10,7 @@ TagManager:
   - EnemyPatrol
   - Fox
   - Wolf
+  - peluru
   layers:
   - Default
   - TransparentFX
