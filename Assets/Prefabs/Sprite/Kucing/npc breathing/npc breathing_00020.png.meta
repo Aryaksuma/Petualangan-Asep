@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      npc breathing_00020_0: 3434842523239320476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

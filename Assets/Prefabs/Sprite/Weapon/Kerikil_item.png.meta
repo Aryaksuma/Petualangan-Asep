@@ -176,7 +176,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kerikil_item_0: 2631891812646938585
+      Kerikil_item_1: 6993242476647340901
+      Kerikil_item_2: -7218584159823554153
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
