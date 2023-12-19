@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu2 : MonoBehaviour
 {
-    public GameObject level1Menu;
+    public GameObject btnPause;
     public GameObject pauseMenu;
     // Start is called before the first frame update
     void Start()
     {
         pauseMenu.SetActive(false);
-        level1Menu.SetActive(true);
+        btnPause.SetActive(true);
     }
 
     // Update is called once per frame
@@ -23,7 +22,7 @@ public class PauseMenu : MonoBehaviour
             pauseMenu.SetActive(true);
             PauseGame();
         }
-        else if (pauseMenu.activeInHierarchy && Input.GetKeyDown(KeyCode.Escape))
+        else if(pauseMenu.activeInHierarchy && Input.GetKeyDown(KeyCode.Escape))
         {
             pauseMenu.SetActive(false);
             ResumeGame();
@@ -38,15 +37,16 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
+        Debug.Log("Ditekan");
         Time.timeScale = 0;
         pauseMenu.SetActive(true);
-        level1Menu.SetActive(false);
+        btnPause.SetActive(false);
     }
     public void ResumeGame()
     {
         Time.timeScale = 1;
         pauseMenu.SetActive(false);
-        level1Menu.SetActive(true);
+        btnPause.SetActive(true);
 
     }
 }
