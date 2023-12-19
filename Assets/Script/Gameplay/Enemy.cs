@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class PlayerHealth : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 50;
     public int currentHealth;
 
     public HealthBar healthBar;
@@ -24,13 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene("Level1");
-            Destroy(this.gameObject);
-        }
-
-        if (currentHealth <= 0)
-        {
-            SceneManager.LoadScene("level2");
+            
             Destroy(this.gameObject);
         }
 
@@ -50,15 +43,11 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Wolf")
+        if (other.gameObject.tag == "Player")
         {
             PlayerHp -= 20;
             playerHp.PlayerBar(PlayerHp);
         }
-        else if (other.gameObject.tag == "Boss")
-        {
-            PlayerHp -= 30;
-            playerHp.PlayerBar(PlayerHp);
-        }
+        
     }
 }

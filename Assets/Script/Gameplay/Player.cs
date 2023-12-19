@@ -30,6 +30,18 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
+        
+        if (grounded && Input.GetKeyDown(KeyCode.J))
+        {
+            anim.SetBool("punch", true);
+            Invoke("StopPunch", 1f);
+        }
+
+        /*if (grounded && Input.GetKeyDown(KeyCode.K))
+        {
+            anim.SetBool("shoot", true);
+            Invoke("StopShoot", 1f);
+        }*/
 
         if (Input.GetKey(KeyCode.Space) && grounded)
         {
@@ -39,6 +51,18 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
     }
+
+    private void StopPunch()
+    {
+        anim.SetBool("punch", false);
+        anim.SetBool("grounded", true);
+    }
+
+    /*private void StopShoot()
+    {
+        anim.SetBool("shoot", false);
+        anim.SetBool("grounded", true);
+    }*/
 
     private void Jump()
     {
@@ -57,6 +81,15 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("AttackEnemy"))
+        {
+            GetComponent<PlayerHealth>().TakeDamage(10);
+            rb.AddForce(Vector2.left * 20, ForceMode2D.Impulse);
+        }
     }
 
     
