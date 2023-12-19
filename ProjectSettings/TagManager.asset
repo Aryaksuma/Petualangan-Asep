@@ -11,6 +11,8 @@ TagManager:
   - Fox
   - Wolf
   - peluru
+  - AttackPlayer
+  - AttackEnemy
   layers:
   - Default
   - TransparentFX

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyShooting : MonoBehaviour
+public class EnemyMele : MonoBehaviour
 {
 
     public GameObject bullet;
@@ -20,9 +20,9 @@ public class EnemyShooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        //Debug.Log(distance);
+        Debug.Log(distance);
 
         if (distance < 10)
         {
@@ -31,14 +31,14 @@ public class EnemyShooting : MonoBehaviour
             if (timer > 2)
             {
                 timer = 0;
-                shoot();
+                punch();
             }
         }
     }
 
-    void shoot()
+    void punch()
     {
-        anim.SetTrigger("Shoot");
+        anim.SetTrigger("punch");
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
 
